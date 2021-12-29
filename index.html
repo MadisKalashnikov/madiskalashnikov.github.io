@@ -12,15 +12,15 @@
         function calc() {
             n1 = parseFloat(document.getElementById("n1").value);
             n2 = parseFloat(document.getElementById("n2").value);
-            document.getElementById("result").value = n1 * n2 / 1000
+            result = document.getElementById("result").value = n1 * n2 / 1000;
         }
     </script>
     <div class="container">
         <p class="title">Leivaühikute kalkulaator</p>
-        <input type="text" id="n1" alt="Arv 1" oninput="calc()">
-        <input type="text" id="n2" alt="Arv 2" oninput="calc()">
+        <input type="number" id="n1" alt="Arv 1" oninput="calc()">
+        <input type="number" id="n2" alt="Arv 2" oninput="calc()">
         <p>Tulemus</p>
-        <input type="text" id="result">
+        <input type="number" id="result">
     </div>
 </body>
 </html>
