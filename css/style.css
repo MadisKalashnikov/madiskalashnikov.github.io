@@ -6,10 +6,17 @@
     align-items: center;
     font-size: 25px;
 }
-.input-box {
+input {
     font-size: 30px;
     width: 150px;
     height: 50px;
     margin: 15px;
     text-align: center;
+}
+input:focus {
+    border: 2px solid gray;
+}
+button {
+    font-size: 30px;
+    padding: 10px;
 }
