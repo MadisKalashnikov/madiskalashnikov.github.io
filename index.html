@@ -6,15 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kalkulaator</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/kalk.js"></script>
 </head>
 <body>
-    <script>
-        function calc() {
-            n1 = parseFloat(document.getElementById("n1").value);
-            n2 = parseFloat(document.getElementById("n2").value);
-            result = document.getElementById("result").value = n1 * n2 / 1000;
-        }
-    </script>
     <div class="container">
         <p class="title">Leivaühikute kalkulaator</p>
         <input type="number" id="n1" alt="Arv 1" oninput="calc()">
